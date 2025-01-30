@@ -4,4 +4,12 @@
  * De kleur wordt uitgeprint in de console
  */
 
-let kleur;
+let kleur = "";
+switch (kleur) {
+  case "blauw":
+    console.log("blauw");
+    break;
+  default:
+    console.log("groen");
+    break;
+}

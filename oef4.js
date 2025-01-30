@@ -13,21 +13,26 @@
  * - licht uit  =>  licht gaat uit
  *
  */
-let commandos = "";
+let commandos = "open deur";
 switch (commandos) {
   case "open deur":
     console.log("deur gaat open");
+    break;
   case "muziek":
     console.log("muziek start met spelen");
+    break;
   case "stilte":
     console.log("Muziek gaat uit");
+    break;
   case "licht aan":
     console.log("Licht gaat aan");
+    break;
   case "licht uit":
     console.log("licht gaat uit");
-
     break;
 
   default:
+    console.log("Geen commando gegeven");
+
     break;
 }
